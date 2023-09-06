@@ -12,13 +12,13 @@ html {
 /* HEADER  */
 .header-wrapper {
     width: 1181px;
-    height: 58px;
+    /* height: 58px; */
     margin: 35px auto 0px auto;
 }
 
 .main-navigation {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -28,7 +28,7 @@ ul {
     display: flex;
     flex-direction: row;
     width: 379px;
-    height: 24px;
+    /* height: 24px; */
 }
 
 li {
@@ -40,11 +40,11 @@ li {
 }
 
 
-.main-navigation  p {
+.main-navigation p {
     margin-left: -610px;
     font-weight: 700px;
     width: 84px;
-    height: 28px;
+    /* height: 28px; */
     font-weight: 700;
     font-size: 28px;
     line-height: 27px;
@@ -52,8 +52,8 @@ li {
 }
 
 .main-navigation a {
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
     font-weight: 700;
 }
 
@@ -62,7 +62,7 @@ li {
     width: 100px;
     color: white;
     border-radius: 10px;
-    border:solid;
+    border: solid;
     margin: -6px 0px 0px 0px;
     font-weight: 700;
     font-size: 14px;
@@ -74,48 +74,192 @@ li {
 
 .main-navigation img {
     width: 58px;
-    height: 58px;
+    /* height: 58px; */
 
 }
 
 .header-discription-wrapper {
- width: 1186px;
- display: flex;
- flex-direction: column;
- margin-top:25px;
- 
+    width: 1186px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
 }
 
 
 .header-discription-wrapper h1 {
-margin-top: 25px;
-width: 1185px;
-height: 66px;
-font-weight: 700;
-font-size: 57px;;
-line-height: 65px;
-align-items: center;
-margin-left: auto;
-margin-right: auto;
+    margin-top: 25px;
+    width: 1185px;
+    /* height: 66px; */
+    font-weight: 700;
+    font-size: 57px;
+    ;
+    line-height: 65px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-discription-wrapper p {
-margin-top:25px;
-width: 741px;
-height: 196px;
-line-height: 51px;
-font-weight: 400;
-font-size: 32px;
+    margin-top: 25px;
+    width: 741px;
+    /* height: 196px; */
+    line-height: 51px;
+    font-weight: 400;
+    font-size: 32px;
 }
 
 .header-discription-wrapper button {
-margin-top:50px;
-width: 235px;
-height: 60px;
-border:solid #5528FF;
-border-radius: 10px;
-background-color: #5528FF;
-color: white;
-font-family: 'Ubuntu', sans-serif;
-text-decoration: none;
+    margin-top: 50px;
+    width: 235px;
+    height: 60px;
+    border: solid #5528FF;
+    border-radius: 10px;
+    background-color: #5528FF;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.div-with-before {
+    position: absolute;
+    border-top: 2px solid rgb(202, 188, 188);
+    text-align: center;
+    width: 1920px;
+    padding: 1px 2px 3px 4px;
+    margin: 50px 0px 0px 0px;
+}
+
+
+.div-with-before::before {
+    position: relative;
+    content: "OUR SERVICES";
+    background: #ffffff;
+    color: rgb(202, 188, 188);
+    padding: 6px 20px 3px 20px;
+    margin: 25px 1050px 3px 4px;
+}
+
+/* MAIN */
+
+.first-main-section {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+    
+}
+
+.second-main-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+}
+
+.service-description-wrapper {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 120px;
+    align-items: center;
+    width: 1060px;
+}
+
+.first-service-description div {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+}
+
+.second-service-description div {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+}
+
+.first-service-description h2 {
+    width: 267px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+
+.second-service-description h2 {
+    width: 267px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.service-description-product-design {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.first-service-description p {
+    width: 292px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B2B2B2;
+}
+
+.second-service-description p {
+    width: 292px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B2B2B2;
+   
+}
+
+.mobile {
+    width: 34px;
+}
+
+.monitor {
+    width: 80px;
+}
+
+.layers {
+    width: 80px;
+    margin: 5px 5px 5px -12px;
+    
+}
+
+.test {
+    width: 46px;
+    margin: 10px 10px 10px 7px;
+   
+}
+
+.second-service-description {
+    margin: 10px 10px 10px -40px;
+}
+
+.second-service-description-test-description div {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+}
+
+
+.second-service-description-test-description h2 {
+    width: 267px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.second-service-description-test-description p {
+    width: 292px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #B2B2B2;
 }
