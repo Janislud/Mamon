@@ -132,6 +132,7 @@ li {
 
 
 .div-with-before::before {
+    top:-10px;
     position: relative;
     content: "OUR SERVICES";
     background: #ffffff;
@@ -271,9 +272,11 @@ li {
     width: 1920px;
     padding: 1px 2px 3px 4px;
     margin: 50px 0px 0px 0px;
+    
 }
 
 .div-with-before-our-clients::before {
+    top:-10px;
     position: relative;
     content: "OUR CLIENTS";
     background: #ffffff;
@@ -380,6 +383,7 @@ margin:0px 0px 0px 53px;
 }
 
 .div-with-before-our-team::before {
+    top:-10px;
     position: relative;
     content: "OUR TEAM";
     background: #ffffff;
